@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "欢迎来到我的个人主页！"
+title: /
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+欢迎来到我的个人主页！
+======
 我目前在 [上海交通大学](https://www.sjtu.edu.cn/) 攻读博士学位。我的研究方向主要是：
 
 * 研究方向一：合成孔径雷达成像与目标检测

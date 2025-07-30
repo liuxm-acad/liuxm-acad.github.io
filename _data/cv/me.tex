@@ -1,0 +1,225 @@
+% Document class and font size
+\documentclass[a4paper,12pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\usepackage[fontset=ubuntu]{ctex} % For Chinese font
+\usepackage{xcolor} % For text color
+\usepackage{setspace} % For line spacing
+
+% Line spacing
+\setstretch{1.15} % Adjust line spacing, 1 is default, 1.15 is slightly larger
+
+% Font size for the document
+\renewcommand{\normalsize}{\fontsize{13}{15.6}\selectfont} % Adjust normal font size and line height
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header with indentation
+\begin{flushleft}
+    \textbf{\Large 刘新明}\\[2pt] % Name
+    \textit{硕士，助理工程师，中共党员\\
+    中国科学院力学研究所，流固耦合系统力学重点实验室\\
+    学习方向：数值计算，冲击动力学，爆炸力学，工程力学，连续非连续单元法\\编程技能：C++，Python，JavaScript\\
+    联系方式：13261639900，xinming.l@outlook.com
+    }
+\end{flushleft}
+
+%\section*{个人陈述}
+% 教育经历
+\section*{教育经历}
+% \noindent
+ % University name and location
+\begin{itemize}
+    \item \textbf{中国科学院力学研究所，工程力学硕士} \hfill 2020.09 - 2023.07
+     \begin{itemize}
+    \item 主要成果: 一作及二作（导师一作）学术及会议论文6篇，发明专利1项
+    \item 学位论文: 基于CDEM的脆性材料冲击破碎特性研究与应用
+    \item 论文导师: 冯春高级工程师；李世海教授
+   
+% 本科
+     % Degree and GPA % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+    \item \textbf{中国矿业大学（北京），采矿工程学士}\hfill \hfill 2016.09 - 2020.07
+     \begin{itemize}
+    \item 加权绩点: 3.6/4.0，专业方向第一名
+    \item 学位论文: 平安铁矿2.5Mt/a新井初步设计 
+    \item 本科导师: 杨胜利教授；王春来教授
+    \end{itemize}
+\end{itemize}
+
+% 工作经历
+\section*{工作经历}
+% \noindent
+\begin{itemize}
+ \item\textbf{中国科学院力学研究所，助理工程师} \hfill2023.07 - 2024.02% Company name and location
+         \begin{itemize}
+            \item 工程结构、岩土地灾领域的爆炸冲击数值算法与软件开发。 \hfill % Position and duration
+            %\item 工程结构、岩土地灾领域的爆炸冲击数值算法与软件开发。 % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+% \noindent
+\begin{itemize}
+ \item\textbf{北京极道成然有限公司，实习仿真工程师} \hfill2021.07 - 2023.05% Company name and location
+         \begin{itemize}
+            \item 基于C++、JavaScript对显式动力学数值软件GDEM开发和应用；对高校、科研院所及工程单位的客户培训，撰写项目书。 \hfill % Position and duration
+            %\item 工程结构、岩土地灾领域的爆炸冲击数值算法与软件开发。 % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+ \item\textbf{中国铁路设计集团有限公司，实习工程师} \hfill 2022.07 - 2022.08% Company name and location
+         \begin{itemize}
+            \item 基于Midas、Comsol对在建高铁路基进行结构稳定性、安全性评估。  % Position and duration
+            % \item 基于Midas、Comsol对在建高铁项目进行结构稳定性、安全性评估。 % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+% SKILLS
+% \section*{技能}
+% \begin{itemize}
+%     \item \textbf{语言}： 通过CET-4/6; IELTS (待出分)
+%     \item \textbf{编程}： C++; JavaScript; Matlab
+%     \item \textbf{数值计算}： CDEM, Midas, LS-DYNA, Solidworks, GMSH, GID, AutoCAD
+% \end{itemize}
+
+\section*{奖励情况}
+\begin{itemize}
+    \item \textbf{中国科学院大学三好学生}\hfill 2023.06  
+    \item \textbf{中国科学院大学三好学生}\hfill 2022.06  
+    \item \textbf{中国科学院大学学业奖学金}\hfill 2020 - 2023  
+    \item \textbf{北京市优秀毕业生}\hfill 2020.07
+    \item \textbf{北京市优秀毕业设计}\hfill 2020.07  
+    \item \textbf{中国矿业大学（北京）优秀毕业生}\hfill 2020.07  
+    \item \textbf{中国矿业大学（北京）优秀毕业设计}\hfill 2020.07  
+    \item \textbf{中国矿业大学（北京）优秀大创项目}\hfill 2019.05  
+    \item \textbf{国家励志奖学金}\hfill 2017.09  
+\end{itemize}
+
+% Skills Section
+\section*{学术会议}
+\begin{itemize}
+    \item \textbf{第14届全国爆炸力学会议} \hfill 分会场报告, 2023  
+    \item \textbf{毁伤快速算法与仿真技术研讨会} \hfill 参会人, 2023  
+    \item \textbf{大连理工-白俄罗斯国立大学联合学术研讨会} \hfill 研究生报告, 2022 
+    \item \textbf{第4届国际岩石动力学与应用大会} \hfill 投稿参会, 2022 
+    \item \textbf{第11届亚洲岩石力学大会} \hfill 分会场报告, 2021 
+\end{itemize}
+
+% Publications
+\section*{科研成果}
+\begin{itemize}
+    \item \textbf{期刊文章:}  % Relevant coursework
+    \begin{enumerate}
+    \item Feng C, \textbf{Liu X}, Lin Q, et al. A simple particle-spring method for capturing the continuous-discontinuous processes of brittle materials[J]. Engineering Analysis with Boundary Elements, 2022. (JCR Q1, IF 3.3)
+    \item Shuai X, \textbf{Liu X}, et al. Numerical Analysis of Tailings dam break based on GDEM-GAVA [J]. Geotechnical and Geological Engineering, 2023. (Accept, EI, IF 1.7)
+    \item \textbf{刘新明}, 冯春, 林钦栋. 基于连续-非连续单元法的三维脆性颗粒冲击破碎特性分析[J]. 计算力学学报, 2022.(中文核心)
+    \item 徐兴全,王心泉,冯春,丁桂伶,\textbf{刘新明},王晓亮.基于GDEM-GAVA的白羊城沟泥石流成灾风险数值分析[J/OL].力学与实践,2023.(中文核心)
+    \item 张新伟,朱心广,冯春,王心泉,\textbf{刘新明}.基于降雨入渗概化模型的王家台滑坡岩土参数反演分析[J].科学技术与工程,2022.(中文核心) 
+\end{enumerate}
+\end{itemize}
+
+\begin{itemize}
+    \item \textbf{会议文章:} % Relevant coursework
+    \begin{enumerate}
+    \item \textbf{Liu X}, Feng C. Study on impact crushing behavior of realistic 3D rock particles based on CDEM[M]//Rock Dynamics: Progress and Prospect, Volume 2. CRC Press, 2023.
+    \item Feng C, \textbf{Liu X}, Zhu X, et al. Numerical study on the relationship between initiation sequence and blasting quality of hematite[M]//Rock Dynamics: Progress and Prospect, Volume 1. CRC Press, 2022.
+    \item Feng C, \textbf{Liu X}, Zhu X, et al. Numerical Study on Crushing Law of Iron Ore under Different Impact Velocity Using CDEM[C]//IOP Conference Series: Earth and Environmental Science. IOP Publishing, 2021.
+\end{enumerate}
+\end{itemize}
+
+\begin{itemize}
+    \item \textbf{发明专利:} 
+    \begin{enumerate}
+    \item 冯春，\textbf{刘新明}，朱心广，程鹏达，王理想，周俊，周玉. 一种测试反演岩块破碎能耗的方法及装置 (CN 116306131 A)
+\end{enumerate}
+\end{itemize}
+\par  {补充说明: 目前有1篇SCI在投。}
+\newpage
+
+% Projects Section
+\section*{项目经历}
+\begin{itemize}
+ \item\textbf{CDEM核心求解器力学数学接口函数创建} \hfill {2023.08 - 至今} % Company name and location
+         \begin{itemize}
+            \item \textbf{项目描述}: 对课题组CDEM数值软件的数学模块和块体动力学模块展开接口函数代码编写，编译构建可调用的核心求解器。 % Position and duration    
+            \item \textbf{主要贡献}: 负责C++核心求解器与JavaScript脚本的接口函数的对接编写。 % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+ \item\textbf{气体爆炸石化设备及建筑结构毁伤评估系统}\hfill 2021.12 - 至今 % Company name and location
+         \begin{itemize}
+            \item \textbf{合作单位}: 中石化青岛安全工程研究院 % Position and duration
+            \item \textbf{项目描述}: 对可燃气体爆炸后石化关键设备以及周边建筑结构从损伤破裂到飞散堆积的全过程进行模拟，分析关键设备及建筑物损坏模式、抗爆性能以及破片风险的影响因素。目前进行破片诱发罐区失效的二期合作。 % Position and duration
+            \item \textbf{主要贡献}: 负责建立砌体墙模型、建筑物模型；负责燃爆条件下的砌体结构破坏的数值模拟；负责进行罐区破坏效应效果的评估。 % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+ \item\textbf{地下工程经验设计体系分析与典型工程岩石峰后特性研究} \hfill 2023.05 - 2023.10 % Company name and location
+         \begin{itemize}
+            \item \textbf{合作单位}: 中国科学院武汉岩土力学研究所 % Position and duration
+            \item \textbf{项目描述}: 为研究典型地下工程建设过程中的岩石峰后特性，基于数值模拟对典型岩石峰后特性进行研究并分类。 % Position and duration
+            \item \textbf{主要贡献}: 负责文献调研，前后处理，构建地下工程的数值模型，数据提取处理，撰写报告。 % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+%\newpage
+
+\begin{itemize}
+ \item\textbf{冲击载荷下路面的沉降规律及破裂规律的研究} \hfill 2021.10 - 2022.12 % Company name and location
+         \begin{itemize}
+            \item \textbf{合作单位}: 装备研究院 % Position and duration
+            \item \textbf{项目描述}: 为掌握低等级公路在冲击荷载下的动态响应特征，基于数值模拟开展研究，建立了不同荷载下沉降值的对应关系。 % Position and duration
+            \item \textbf{主要贡献}: 负责构建道路三维数值模型及千余组工况下道路响应特征的数值模拟；提出了不同荷载之间对应关系。 % Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+ \item\textbf{自然灾害导致非煤矿山生产事故模型及模拟系统} \hfill2022.09 - 2022.12 % Company name and location
+         \begin{itemize}
+            \item \textbf{合作单位}: 中国安全生产科学研究院 % Position and duration
+            \item \textbf{项目描述}: 构建尾矿库、露天矿山、地下矿山三维数值模型，分析成灾行为演化过程与成灾特征。 % Position and duration
+            \item \textbf{主要贡献}: 负责调研相关文献；负责建立数值模型；负责数值算例求解与撰写计算报告。% Job responsibilities and achievements
+\end{itemize}
+\end{itemize}
+
+
+
+
+
+
+% End document
+\end{document}
+
+
+
+
+
+
+
+
+% End document
+\end{document}
+
+
+
+
