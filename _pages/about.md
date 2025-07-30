@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: /
+title: "Liuxm"
 author_profile: true
 redirect_from: 
   - /about/
@@ -45,7 +45,7 @@ redirect_from:
 
 工作经历
 ======
-* 助理工程师，数值算法开发，中国科学院力学研究所
+助理工程师，数值算法开发，中国科学院力学研究所
 
 主要成果
 ======
@@ -55,7 +55,7 @@ redirect_from:
 ======
 如果您对我的研究感兴趣或希望进行学术合作，欢迎通过以下方式联系我：
 
-* 邮箱：liuxinming@sjtu.edu.cn
+邮箱：liuxinming@sjtu.edu.cn
 
 关于本网站
 ======
