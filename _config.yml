@@ -7,33 +7,36 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"  # 可以改为中文
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Liuxm / academicpages"
 title_separator          : "-"
-name                     : &name "LIUXM"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "liuxm"
+description              : &description "way back home"
+url                      : https://liuxm-acad.github.io # 修改为您的GitHub用户名
+baseurl                  : "" # 子路径，一般保持为空
+repository               : "liuxm-acad/liuxm-acad.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author - 侧边栏的作者信息
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  # 个人信息
+  avatar           : "profile.png"  # 头像文件，放在images目录下
+  name             : "躺赢明明"
+  pronouns         : # 代词，如"he/him"，可以留空
+  bio              : "大龄博士生"
+  location         : "中国"
+  employer         : "Shanghai Jiao Tong University"
+  uri              : # 个人网站URL
+  email            : "liuxinming@sjtu.edu.cn" 
 
-  # Academic websites
+  # 学术网站链接
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=您的ID"
+  orcid            : "http://orcid.org/您的ORCID"
+  # ... 其他社交媒体链接
+  academia         : # URL
+  arxiv            : # URL
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
