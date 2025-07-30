@@ -22,12 +22,12 @@ author:
   # 个人信息
   avatar           : "profile.png"  # 头像文件，放在images目录下
   name             : "躺赢明明"
-  pronouns         : # 代词，如"he/him"，可以留空
+  pronouns         : # 代词，如"he/him"，可以
   bio              : "大龄博士生"
   location         : "中国"
   employer         : "Shanghai Jiao Tong University"
   uri              : # 个人网站URL
-  email            : "liuxinming@sjtu.edu.cn" 
+  email            : "liuxinming@sjtu.edu.cn"   
 
   # 学术网站链接
   academia         : # URL
